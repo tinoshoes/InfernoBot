@@ -34,7 +34,7 @@ async def on_message(message):
 
 
 def main():
-    token = os.getenv('DISCORD_TOKEN')
+    token = os.getenv('MTM0NTUyMDI4MzY2NjM1MDIyMw.GOXFrQ.JyDUYcpd0cw2J3doZiWZs9TDBlXXFNKpmzPLOQ')
     if not token:
         raise ValueError("DISCORD_TOKEN environment variable is required")
 
